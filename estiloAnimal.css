@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+    font-size: larger;
+}
+#nome{
+    position: absolute;
+    color: aqua;
+    border: 2px solid black;
+    padding: 1%;
+
+
+
+}
+
+p:hover{
+    font-weight: bold;
+    color: blueviolet;
+
+}
+
+li:hover{
+    color: blue;
+}
+
+img{
+    /*border: 2px solid aquamarine;*/
+    border-top: 3px solid aquamarine;
+    border-bottom: 3px solid aquamarine;
+    border-left: 2px solid red;
+    border-right: 2px solid blue;
+    
+}
+
+.textos{
+    background-color: rgb(red, green, rgb(7, 7, 26));
+    width: 50%;
+    /* overflow: scroll; Cria uma barra lateral*/
+    overflow-y: auto;
+    overflow-x: auto;
+
+}

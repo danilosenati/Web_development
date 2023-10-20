@@ -1,0 +1,17 @@
+#img1{
+    position: absolute;
+    z-index: 0; /*Primeira imagem a ser exibida*/
+}
+
+#img2{
+    position: absolute;
+    left: 50px;
+    z-index: 1;/*Segunda imagem a ser exibida*/
+}
+
+#img3{
+    position: absolute;
+    width: 15px;
+    left: 50px;
+    z-index: 2; /*Terceira imagem a ser exibida*/
+}

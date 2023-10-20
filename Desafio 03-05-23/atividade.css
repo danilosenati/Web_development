@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.sessao1 {
+    background-color: aqua;
+}
+
+section {
+    padding: 5px;
+    /* utilizada para definir o tamanho da borda;*/
+    border-width: 10px;
+    /*utilizada para definir o estilo da borda;*/
+    border-style: groove;
+    border-color: black;
+}
+
+#cabecalho {
+    position: relative;
+    top: 0;
+    /*Forma abreviada da sintaxe da propriedade border*/
+    border: 1px solid blue;
+}
+
+img p{
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2:hover {
+    color: red;
+    margin: 0;
+}
+
+nav {
+    display: block;
+}
+
+
+li:active {
+    color: goldenrod;
+}
+
+a {
+    text-decoration: none;
+}
+
+article {
+    display: block;
+    /*Ocupa toda a largura da página.*/
+}
+
+article header h1 {
+    border-bottom: 1px solid red;
+    /*Cria a borda somente abaixo do elemento;*/
+}
+
+#imagem2 {
+    /*Adicione uma foto de segundo plano utilizando somente CSS com link da internet.*/
+    background-image: url("");
+    height: 400px;
+    width: 100%;
+}
+
+
+#aside p{
+    background-color: azure;
+     display:inline-block
+}
+
+footer {
+    text-align: center;
+}
