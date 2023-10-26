@@ -2,7 +2,9 @@
 let num1 = 10;
 let i = 0;
 let resultado = 0;
-let tab = ''
+let tab = '';
+
+// TABUADA DE MULTIPLICAÇÃO
 
 function tabuada(numero){
     for(i = 0; i <= num1; i++){
@@ -13,4 +15,4 @@ function tabuada(numero){
     return tab;     
 }
 
-console.log(tabuada(8));
+console.log(tabuada(8)); // CHAMANDO A FUNÇÃO.
