@@ -2,7 +2,7 @@
 https://www.hashtagtreinamentos.com/arrow-function-em-javascript?gad=1&gclid=Cj0KCQjwhfipBhCqARIsAH9msbnJtRta0cTecqZYm57k-M4SC5LFQrtqOPwp__u-kxkIKYHtzrqlh84aArZ7EALw_wcB
 */
 
-// FUNCAO NORMAL
+// FUNCÃO NORMAL
     function soma(num1, num2){
         return num1 + num2;
     };
@@ -13,7 +13,6 @@ https://www.hashtagtreinamentos.com/arrow-function-em-javascript?gad=1&gclid=Cj0
 /*
 Uma arrow function nada mais é do que uma forma diferente e mais enxuta de escrever certas funções.
 */
-
 const subtracao = (num3, num4) =>{
     return num3 - num4;
 };
