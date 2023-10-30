@@ -30,4 +30,4 @@ console.log(motos.marca);
 console.log(`Nome do propritário: ${pessoa.nome}, marca da moto: ${motos.marca[2]}`);
 
 // UTLIZANDO O "['']" PARA ACESSAR UMA PROPRIEDADE:
-
+console.log(pessoa['nome']);
