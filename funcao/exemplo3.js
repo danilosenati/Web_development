@@ -12,8 +12,6 @@ function total(array) {
     return soma
 }
 
-// TESTE 
-
 if(news.indexOf(news) !== -1){
     console.log('O array contém a string');
 }else{
