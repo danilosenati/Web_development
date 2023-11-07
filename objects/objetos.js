@@ -58,3 +58,4 @@ motos.ano = [...motos.ano, 1950,20021, 2025];
 console.log(`Idades: ${pessoa['idade']}`);
 console.log(`Preços: ${informacoes.preco}`);
 console.log(`${motos['ano']}`);
+console.log(pessoa['nome']);
