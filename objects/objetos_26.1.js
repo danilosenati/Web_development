@@ -18,3 +18,8 @@ console.log(pessoa);
 
 // ADICIONANDO PROPRIEDADES ATRAVÉS DE FUNÇÃO:
 
+if(typeof pessoa.sobreNome === 'undefined'){ // Se a chave sobreNome não possuir nenhum valor.
+    pessoa.sobreNome = 'Santos' // adicione a chave sobreNome e o valor Santos.
+}
+console.log("------------------------------");
+console.log(pessoa);
