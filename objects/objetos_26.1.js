@@ -17,3 +17,4 @@ pessoa.dados.gênero = 'Masculino'
 console.log(pessoa);
 
 // ADICIONANDO PROPRIEDADES ATRAVÉS DE FUNÇÃO:
+
