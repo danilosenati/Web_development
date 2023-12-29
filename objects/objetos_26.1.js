@@ -16,10 +16,23 @@ pessoa.dados.gênero = 'Masculino'
 
 console.log(pessoa);
 
-// ADICIONANDO PROPRIEDADES ATRAVÉS DE FUNÇÃO:
+// ADICIONANDO PROPRIEDADES:
 
 if(typeof pessoa.sobreNome === 'undefined'){ // Se a chave sobreNome não possuir nenhum valor.
     pessoa.sobreNome = 'Santos' // adicione a chave sobreNome e o valor Santos.
 }
+console.log("------------------------------");
+console.log(pessoa);
+
+// ADICIONANDO PROPRIEDADES ATRAVÉS DE FUNÇÃO  DE FORMA DINÂMICA:
+
+const addPropriedade = (object, key, value) => {
+    if(typeof object[key] === 'undefined'){
+        object[key] = value;
+    }
+}
+
+addPropriedade(pessoa, 'cor', 'Azul');
+
 console.log("------------------------------");
 console.log(pessoa);
