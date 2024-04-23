@@ -59,7 +59,10 @@ a {
 
 .container{
     width: 100%;
-    height: 400px;
+    
+    /*AUMENTANDO O TAMANHO DA ALTURA A PARTIR DO VALOR MINIMO:*/
+    min-height: 200px; /* O valor minimo é 200px*/
+
     background-color: rgb(30, 195, 203);
     /* display: flex;
     justify-content: space-evenly;
@@ -71,13 +74,13 @@ a {
     width: 300px;
     height: 250px;
     background-color: red;
-    border: 10px solid black;
+    border: 2px solid black;
 }
 
 .div2{
     width: 300px;
-    height: 5000px;
+    height: 500px;
     background-color: red;
-    border: 10px solid black;
+    border: 2px solid black;
     
 }
