@@ -68,19 +68,42 @@ a {
     justify-content: space-evenly;
     align-items: center; */
     overflow: inherit; /* Herda a configuração do container pai <body>, que possui o overflow: auto;*/
+    padding: 16px;
 }
 
 .div1{
     width: 300px;
-    height: 250px;
+    height: 300px;
+    /* margin: 16px; */
     background-color: red;
     border: 2px solid black;
+    /* border-radius: 8px 16px 32px 64px ; */
+    border-radius: 50%;
+    margin: 10px 10px 10px 10px; /* TOPO, LADO DIREITO, BASE , LADO ESQUERDO*/
+    overflow: hidden;
+}
+
+.div1 img{
+    width: 100%; /*força a imagem a ocupar todo o espaço que você deu a ela.*/
+    max-width: 400px; 
+    aspect-ratio: 1/1; /* essa é a propriedade que deixa a imagem quadrada, mas ao mesmo tempo distorce ela*/
+    object-fit: cover; /* recorta a imagem e evita a distorção que a propriedade anterior causou.*/
+    border-radius: 50%; /*propriedade deixa a imagem redonda. */
+    
 }
 
 .div2{
     width: 300px;
-    height: 500px;
+    height: 300px;
     background-color: red;
     border: 2px solid black;
-    
+    border-radius: 24px;
+    margin: 10px; 
+    overflow: hidden;   
+}
+
+.div2 img{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
 }
