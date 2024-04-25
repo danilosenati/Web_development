@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tela Inicial</title>
+        <!-- Define as configurações iniciais do cabeçalho -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                /* PARA MANTER AS BORDAS (BORDER) INTERNAS: */
+                box-sizing: border-box;
+                font-size: 25px;
+            }
+
+            header{
+                width: 100%;
+                height: 50px;
+                background-color: aqua;
+            }
+
+            header>nav { /* APLICA A COR APENAS NO ELEMENTO FILHO NAV*/
+                color: black;
+            }
+
+            header nav nav{
+                color: red;
+            }
+
+            footer nav{
+                color: orange;
+            }
+
+            footer {
+                width: 100%;
+                height: 50%;
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                PRETO
+                <nav>
+                    VERMELHO
+                </nav>
+            </nav>
+        </header>
+        <footer>
+            <nav>
+                LARANJA
+            </nav>
+        </footer>
+    </body>
+</html>
