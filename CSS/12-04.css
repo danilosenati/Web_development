@@ -95,10 +95,15 @@ a {
 .div2{
     width: 300px;
     height: 300px;
+    background-image: url(/assets/look-studio-TN8f7G_NGjM-unsplash.jpg);
+    /*Foto de <a href="https://unsplash.com/pt-br/@lookphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Look Studio</a> na <a href="https://unsplash.com/pt-br/fotografias/uma-mulher-sentada-no-chao-olhando-para-um-pedaco-de-papel-TN8f7G_NGjM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> --> */
+    background-size: cover;
+    background-position: center;
     background-color: red;
     border: 2px solid black;
-    border-radius: 24px;
-    margin: 10px; 
+    
+    border-radius: 50%;
+    margin: 0 auto; 
     overflow: hidden;   
 }
 
