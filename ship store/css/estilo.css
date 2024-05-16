@@ -1,0 +1,12 @@
+/*RESET*/
+* {
+    margin: 0px;
+    padding: 0px;
+    /* PARA MANTER AS BORDAS (BORDER) INTERNAS: */
+    box-sizing: border-box;
+}
+
+a:link,
+a:visited{
+    color: red;
+}
