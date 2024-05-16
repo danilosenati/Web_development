@@ -7,6 +7,23 @@
 
 }
 
+a:link{
+    color: yellow;
+    text-decoration: none;
+}
+a:visited{
+    color: green
+}
+
+a:hover{
+    color: blueviolet;
+    border-bottom: 1px solid;
+}
+
+a:active{
+    color: #fe5024;
+}
+
 body {
     background-color:  rgb(215, 230, 250);;
     overflow: auto;
@@ -44,7 +61,7 @@ menu {
     width: 100%;
     height: 60px;
     border: 4px double royalblue;
-    background-color: yellow;
+    background-color: antiquewhite;
 }
 
 a {
