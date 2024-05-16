@@ -1,4 +1,8 @@
 # Curso de Desenvolvimento Web - Front End
-Desenvolvimento de sistemas web. 
+Projeto desenvolvido durante as aulas do Curso de Desenvolvimento Front-End
 
-Utilização de ferramentas como: HTML, CSS, e Javascript.
+### HTML5
+Cosntruindo uma estrutura semântica
+
+### CSS3
+para estilização de responsividade
