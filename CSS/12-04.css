@@ -82,6 +82,7 @@ a {
    /* margin: 10px 10px 10px 10px; /* TOPO, LADO DIREITO, BASE , LADO ESQUERDO*/
     margin: 16px auto;
     overflow: hidden; /* DEIXA A IMAGEM REDONDA*/
+    display: none; /*OCULTANDO O ELEMENTO*/
 }
 
 .div1 img{
@@ -105,7 +106,8 @@ a {
     
     border-radius: 50%;
     margin: 0 auto; 
-    overflow: hidden;   
+    overflow: hidden; 
+    display: none;  
 }
 
 .div2 img{
@@ -116,7 +118,27 @@ a {
 
 .div3,
 .div4 {
-    width: 200px;
-    height: 200px;
-    border: 1px solid  salmon;
+    width: 500px; /* Se não declarada assume 100% da largura do elenmento pai*/
+    height: 500px;
+    border-top: 10px solid  #fe5024;
+    border-right: 10px dotted goldenrod;
+    border-bottom: 10px groove blue;
+    border-left: 10px double black;
+    /* padding: 20px; */
+    /* overflow: auto; */
+}
+.div3{
+    background-color: antiquewhite;
+    box-sizing: content-box;
+    display: none;
+}
+
+.div4{
+    background-color: chartreuse;
+    padding: 10px;
+}
+
+section{
+    height: 100%;
+    background-color: lightslategray;
 }
