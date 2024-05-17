@@ -1,0 +1,59 @@
+Algoritmo - Conjunto de etapas finitas para realziar uma tarefa.
+
+Comer bombom
+INICIO
+1. Abro a embalagem
+2. Coloco o bombom na boca
+3. Mastigar
+4. Engolir
+5. Jogar a emnbalagem no lixo
+FIM
+
+INICIO
+1. Tenho o bombom?
+    NÃO -> 2.
+    SIM -> 3.
+
+2. Tenho dinheior para comprar um bombom?
+    NÂO -> Fim.
+    SIM -> 2.1.
+
+2.1. Tem onde comprar o bombom?:
+    NÂO -> Fim.
+    SIM -> 2.1.1.
+
+2.1.1. Consigo ir até a loja?
+    NÂO -> FIM.
+    SIM -> 2.1.2.
+
+2.1.2. Fui até a loja:
+    NÂO -> 2.1.2.
+    SIM -> 2.1.3.
+
+2.1.3. Tem bombom na loja?
+    NÂO -> Voltar para casa
+    SIM -> 2.1.4.
+
+2.1.4. Escolhi o bombom?
+    NÂO -> 2.1.4.
+    SIM -> 2.1.5.
+
+2.1.5. Paguei pelo bombom?
+    NÂO -> 2.1.5.
+    SIM -> 2.1.6.
+
+2.1.6. Voltei para casa?
+    NÃO ->  2.1.6
+    SIM -> 3.
+
+3. Peguei o bombom?
+    NÃO -> 3.
+    SIM -> 4.
+
+4. Tirei a embalagem?
+    NÃO -> 4.
+    SIM -> 5.
+
+5. Mordi a embalagem?
+    NÃO -> 5.
+    SIM -> 6.
