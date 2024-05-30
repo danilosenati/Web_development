@@ -19,3 +19,25 @@ let variavel2 = "Nome";
 const varvar = 101;
 
 // var pode ser utilizado em qualquer parte do código
+if(true){
+    var nome = "Maria"
+    console.log(nome)
+}
+nome = "João"
+console.log("Nome "+nome)
+// *********************************
+
+// let só funciona dentro do escopo do if
+if(true){
+    let nome = "Maria"
+    console.log(nome)
+}
+console.log("Nome "+nome) // esse código não vai funcionar, pq está fora do escopo.
+// *************************************
+
+// const o valor não vai ser alterado durante a execução do programa.
+const idade = 34;
+console.log(idade)
+
+idade = 35 // atribuição não permitida.
+console.log(idade)
