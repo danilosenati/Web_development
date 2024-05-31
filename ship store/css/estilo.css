@@ -80,9 +80,19 @@ main{
     height: 205px;
     background-color: gainsboro;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
 .card img{
     width: 91px;
 }
+.card h2{
+    font-size: 50px;
+}
+
+/*25/04 - 2:27:32*/
