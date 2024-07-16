@@ -96,6 +96,43 @@ main{
     font-size: 50px;
 }
 
+/*Cards Earth Ships*/
+.earthShips{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.earthShips h1{
+    font-size: 60px;
+    color: black;
+}
+
+/* TIPOS DE NAVES TERRESTRES */
+.earthTypes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px; /*ESPAÇAMENTO ENTRE OS CARD*/
+}
+
+/* AUMENTANDO O TAMANHO DO CARD. */
+.earthTypes .card{
+    width: 540px;
+    height: 280px;
+}
+
+/* CONFIGURANDO O TAMANHO DA IMAGEM DO TIPO DA NAVE. */
+
+.earthTypes .card img{
+    width: 100%;
+}
+
+
 footer{ /*RODAPé*/
     width: 100%;
     height: 30px;
@@ -105,20 +142,4 @@ footer{ /*RODAPé*/
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/*Cards Earth Ships*/
-.earthShips{
-    width: 100%;
-    margin: 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/* TIPOS DE NAVES TERRESTRES */
-.earthTypes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 48px; /*ESPAÇAMENTO ENTRE OS CARD*/
 }
