@@ -87,8 +87,6 @@ main{
     flex-direction: column; /* */
     align-items: center; /*ALINHA OS ELEMENTOS NA HORIZONTAL*/
     justify-content: center; /*CENTRALIZA OS ELEMENTOS NA VERTICAL*/
-
-
 }
 
 .card img{
@@ -97,7 +95,6 @@ main{
 .card h2{
     font-size: 50px;
 }
-
 
 footer{ /*RODAPé*/
     width: 100%;
@@ -108,7 +105,20 @@ footer{ /*RODAPé*/
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-/*25/04 - 2:27:32*/
+/*Cards Earth Ships*/
+.earthShips{
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* TIPOS DE NAVES TERRESTRES */
+.earthTypes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px; /*ESPAÇAMENTO ENTRE OS CARD*/
+}
