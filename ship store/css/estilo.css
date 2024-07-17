@@ -67,7 +67,7 @@ main{
     font-size: 40px;
 }
 
-.earthShips,
+.bicicletas ,
 .cards{ /* CARDS DAS NAVES TERRESTRE E DA HOME */
     width: 100%;
     margin: 16px 0;
@@ -98,7 +98,7 @@ main{
 }
 
 /*Cards Earth Ships*/
-.earthShips{
+.bicicletas{
     height: 600px;
     flex-direction: column;
     align-items: center;
@@ -106,13 +106,13 @@ main{
     gap: 21px;
 }
 
-.earthShips h1{ /*titulo EARTH SHIPS*/
+.bicicletas h1{ /*titulo EARTH SHIPS*/
     font-size: 60px;
     color: black;
 }
 
 /* TIPOS DE NAVES TERRESTRES */
-.earthTypes{
+.tipos-bicicletas{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,14 +120,14 @@ main{
 }
 
 /* AUMENTANDO O TAMANHO DO CARD. */
-.earthTypes .card{
+.tipos-bicicletas .card{
     width: 400px;
     height: 250px;
 }
 
 /* CONFIGURANDO O TAMANHO DA IMAGEM DO TIPO DA NAVE. */
 
-.earthTypes .card img{
+.tipos-bicicletas .card img{
     width: 100%;
 }
 
