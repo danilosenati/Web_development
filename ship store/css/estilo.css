@@ -26,6 +26,10 @@ header nav{
     align-items: center; /* ALINHA CENTRALIZADO NA VERTICAL */
 }
 
+a{
+    text-decoration: none;
+}
+
 .logo{
 
 }
@@ -66,9 +70,9 @@ main{
     color: #fafafa;
     font-size: 40px;
 }
-
+.serv,
 .bicicletas ,
-.cards{ /* CARDS DAS NAVES TERRESTRE E DA HOME */
+.cards{ /* CARDS DA BICICLETAS E DA HOME */
     width: 100%;
     margin: 16px 0;
     display: flex;
@@ -97,7 +101,8 @@ main{
     font-size: 50px;
 }
 
-/*Cards Earth Ships*/
+/*Cards BICICLETAS*/
+.serv,
 .bicicletas{
     height: 600px;
     flex-direction: column;
@@ -105,13 +110,13 @@ main{
     justify-content: center;
     gap: 21px;
 }
-
-.bicicletas h1{ /*titulo EARTH SHIPS*/
+.serv,
+.bicicletas h1{
     font-size: 60px;
     color: black;
 }
 
-/* TIPOS DE NAVES TERRESTRES */
+/* TIPOS DE BICICLETAS */
 .tipos-bicicletas{
     display: flex;
     justify-content: center;
@@ -123,12 +128,41 @@ main{
 .tipos-bicicletas .card{
     width: 400px;
     height: 250px;
+    overflow: hidden;
 }
 
-/* CONFIGURANDO O TAMANHO DA IMAGEM DO TIPO DA NAVE. */
+/* CONFIGURANDO O TAMANHO DA IMAGEM DO TIPO DA bicicleta. */
 
 .tipos-bicicletas .card img{
     width: 100%;
+    /* border-radius: 12px; */
+}
+
+/* CIRCULO DA PAGINA SERVIÇOS*/
+.circulos{
+    display: flex;
+    gap: 75px; /*ESPAÇAMENTOS ENTRE OS CIRCULOS.*/
+}
+
+.circulo{ /* CONFIGURAÇÕES DO CIRCULO*/
+    width: 350px;
+    height: 350px;
+    border-radius: 47% 45%; /**ARREDONDADNO AS BORDAS CO CIRCULO.*/
+    overflow: hidden;
+    position: relative;
+}
+
+.circulo h2{
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(224, 80, 80);
+}
+
+.circulo img{ /*IMAGENS CONTIDAS NOS CIRCULOS.*/
+    width: 350px;
+    height: 350px;
 }
 
 
