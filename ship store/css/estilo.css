@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: azure;
+    background-color: white;
 }
 header{
     width: 100%;
@@ -137,6 +137,68 @@ main{
     width: 100%;
     /* border-radius: 12px; */
 }
+
+/*CONFIGURANDO O LAYOUT DOS TIPOS DE BIKES*/
+.bicicletas-detalhes{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.bicicletas-foto{
+    width: 500px;
+    height: 420px;
+    border-radius: 40px;
+    box-shadow: 8px 8px 9px #21212140;
+    /* overflow: hidden; */
+}
+
+.bicicletas-img{
+    width: 100%;
+}
+
+.bicicletas-info{
+    width: 300px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.bicicletas-info h2{
+    font-size: 22px;
+}
+
+.bicicletas-info h3{
+    font-size: 20px;
+}
+
+.bicicletas-info ul{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.bicicletas-info ul li{
+    width: 48px;
+    height: 48px;
+    background-color: red;
+    border-radius: 50%;
+    list-style-type: none; /*REMOVENDO OS MARCADORES DO li*/
+}
+
+.bicicletas-info a{
+    width: 100%;
+    height: 70px;
+    background-color: #e4edfc;
+    border: 1.5px solid #e4edfc;
+    color: #4c95fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* CIRCULO DA PAGINA SERVIÇOS*/
 .circulos{
