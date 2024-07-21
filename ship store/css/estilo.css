@@ -1,3 +1,7 @@
+/* UTILIZANDO FONTE DO GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=swap'); */
+
+
 /*RESET DO CSS*/
 * {
     margin: 0px;
@@ -6,13 +10,25 @@
     box-sizing: border-box;
 }
 
+/* UTILIZANDO FONTE DO GOOGLE*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Gemunu Libre", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
 body{
     background-color: white;
 }
 header{
     width: 100%;
     height: 64px;
-    background-color: #fffde7;
+    background-color: #c5cae9;
     /* padding: 20px; */
 }
 
@@ -20,9 +36,8 @@ header nav{
     width: 1280px;
     height: 64px;
     margin: 0 auto;
-    border: 1px solid red; /*APLICANDO BORDAS*/
     display: flex; /*SÓ FUNCIONA SE O ELEMENTO PAI TIVER UMA ALTURA E LARGURA */
-    justify-content: space-between; /* */
+    justify-content: space-between;
     align-items: center; /* ALINHA CENTRALIZADO NA VERTICAL */
 }
 
@@ -35,18 +50,22 @@ a{
 }
 
 menu{    
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
 }
 
 .barra-cinza{
     width: 100%;
     height: 22px;
-    background-color: gray;
+    background-color: #cec4c4;
 }
 
 .banner img{
     width: 1279px;
     height: 340px;
+    position: relative;
 
 }
 
@@ -83,22 +102,22 @@ main{
 }
 
 .card{ /* CARDS DA HOME*/
-    width: 310px;
-    height: 180px;
+    width: 300px;
+    height: 170px;
     background-color: gainsboro;
-    box-shadow: 8px 9px 8px #21212140; /*COLOCANDO SOMBRA NO CARD*/
     border-radius: 16px;
     display: flex;
-    flex-direction: column; /* */
+    flex-direction: column;
     align-items: center; /*ALINHA OS ELEMENTOS NA HORIZONTAL*/
     justify-content: center; /*CENTRALIZA OS ELEMENTOS NA VERTICAL*/
+    box-shadow: 8px 9px 8px #21212140; /*COLOCANDO SOMBRA NO CARD*/
 }
 
 .card img{ /*CARDS DA HOME*/
-    width: 91px;
+    width: 80px;
 }
 .card h2{
-    font-size: 50px;
+    /* font-size: 35px;       */
 }
 
 /*Cards BICICLETAS*/
@@ -143,16 +162,16 @@ main{
     width: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /*ALINHA AO CENTRO VERTICAL*/
     gap: 16px;
 }
 
 .bicicletas-foto{
     width: 500px;
     height: 420px;
-    border-radius: 40px;
-    box-shadow: 8px 8px 9px #21212140;
-    /* overflow: hidden; */
+    border-radius: 12px;
+    /* box-shadow: 0px 0px 4px #21212140; */
+    /* overflow: auto; */
 }
 
 .bicicletas-img{
@@ -161,9 +180,9 @@ main{
 
 .bicicletas-info{
     width: 300px;
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .bicicletas-info h2{
@@ -188,17 +207,44 @@ main{
     list-style-type: none; /*REMOVENDO OS MARCADORES DO li*/
 }
 
+/*BOLINHAS DE SELEÇÃO DE CORES DA BICICLETA*/
+.bicicletas-info ul li:nth-child(1){
+    background-color: red;
+}
+.bicicletas-info ul li:nth-child(2){
+    background-color: orange;
+}
+.bicicletas-info ul li:nth-child(3){
+    background-color: gray ;
+}
+.bicicletas-info ul li:nth-child(4){
+    background-color: aqua; 
+}
+
+
 .bicicletas-info a{
     width: 100%;
     height: 70px;
-    background-color: #e4edfc;
-    border: 1.5px solid #e4edfc;
-    color: #4c95fe;
+    font-family: "Gemunu Libre", ;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
 }
 
+.bicicletas-info a:link, .bicicletas a:visited{
+    background-color: #e4edfc;
+    color: #4c95fe;
+    font-size: 24px;
+    border-radius: 15px;
+}
+.bicicletas-info a:hover{
+    background: #00aac1;
+    color: #fafafa;
+}
+.bicicletas-info a:active{
+    color: yellow;
+}
 
 /* CIRCULO DA PAGINA SERVIÇOS*/
 .circulos{
@@ -239,4 +285,4 @@ footer{ /*RODAPé*/
     align-items: center;
 }
 
-/* 25/04 as 02:51:57 */
+/* 26/04 as 02:16:37 */
