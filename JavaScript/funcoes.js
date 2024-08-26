@@ -1,4 +1,4 @@
-function dirigir{
+function dirigir(){
   var obstaculos = false;
   var velocidade = 0;
   var anguloDirecao = 0;
@@ -10,3 +10,5 @@ function dirigir{
     alert("Só "+nomeMotorista+" pode guiar esse veiculo!");
   }
 }
+
+dirigir();
