@@ -6,3 +6,5 @@ Cosntruindo uma estrutura semântica
 
 ### CSS3
 para estilização de responsividade
+
+ccxxcxcxcxcxcxcxcxcxcxdfsdsdsd
